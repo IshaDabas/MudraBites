@@ -28,7 +28,7 @@ const CardDeal = () => (
         Micro Finance Company.
       </p>
 
-      <Button styles={`mt-10`} />
+      {/* <Button styles={`mt-10`} /> */}
     </div>
 
     <div className={layout.sectionImg}>

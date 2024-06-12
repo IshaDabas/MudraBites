@@ -19,7 +19,7 @@ const Footer = () => {
           {footerLinks.map((footerlink) => (
             <div
               key={footerlink.title}
-              className={`flex flex-col ss:my-0 my-4 min-w-[200px]`}
+              className="flex flex-col ss:my-0 my-4 min-w-[200px]"
             >
               <h4 className="font-poppins font-medium text-[20px] leading-[27px] text-black">
                 {footerlink.title}
@@ -31,7 +31,10 @@ const Footer = () => {
                     className={`font-poppins font-normal text-[16px] leading-[24px] text-black hover:text-white cursor-pointer ${
                       index !== footerlink.links.length - 1 ? "mb-6" : "mb-0"
                     }`}
-                    onClick={() => window.open(link.name)}
+                    onClick={() => {
+                      console.log("Opening link:", link.link);
+                      window.open(link.link, "_blank");
+                    }}
                   >
                     {link.name}
                   </li>

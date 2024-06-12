@@ -17,6 +17,10 @@ export const navLinks = [
     id: "pricing",
     title: "Pricing",
   },
+  {
+    id: "contact",
+    title:"Contact Us"
+  },
 ];
 
 export const features = [
@@ -183,7 +187,7 @@ export const socialMedia = [
     icon: linkedin,
     link: "https://www.linkedin.com/in/digisoft-india-769371b7/",
   },
-];
+]
 
 export const clients = [
   {
