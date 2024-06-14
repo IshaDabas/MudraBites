@@ -11,13 +11,13 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex justify-between items-center navbar ">
-      <img src={logo} alt="mudraBites" className="w-[200px] h-[170px]" />
+      <img src={logo} alt="mudraBites" className="w-[250px] h-[220px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] hover:text-white 
+            className={`font-poppins font-normal cursor-pointer text-[20px] hover:text-white 
         } ${
           active === nav.title ? "text-black font-bold" : "text-black font-bold"
         } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
