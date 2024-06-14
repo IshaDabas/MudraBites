@@ -28,7 +28,7 @@ const Footer = () => {
                 {footerlink.links.map((link, index) => (
                   <li
                     key={link.name}
-                    className={`font-poppins font-normal text-[16px] leading-[24px] text-black hover:text-white cursor-pointer ${
+                    className={`font-poppins font-normal text-[20px] leading-[24px] text-black hover:text-white cursor-pointer ${
                       index !== footerlink.links.length - 1 ? "mb-6" : "mb-0"
                     }`}
                     onClick={() => {

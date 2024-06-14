@@ -1,4 +1,4 @@
-import {  facebook, instagram, linkedin, twitter, send, shield, star  } from "../assets";
+import {  facebook, instagram, linkedin, twitter, send, shield, star, trophy, hacker, chain, custom, mail, android  } from "../assets";
 
 export const navLinks = [
   {
@@ -26,42 +26,42 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: send,
+    icon: trophy,
     title: "User Friendly & Cost Effective",
     content:
       "TThe first and most attractive feature of the software is GUI ( Graphical User Interface / Windows Forms ). It is a product with high availability, functionality and performance. Another important characteristic of this software is its low maintenance. The cost of developing and maintaining is too low as compared to the other nidhi company softwares provided by other software development companies in Delhi.",
   },
   {
     id: "feature-2",
-    icon: shield,
+    icon: hacker,
     title: "Data Security & Secured Software Environment",
     content:
       "The software is designed and developed in most advanced programming languages such as C# and .NET with a strong SQL database server which ensures complete security of data. The data is completely protected from unauthorized access. Only authorised and approved computers can connect to the centralised & secured database server.",
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: chain,
     title: "Centralized & Realtime Online Process",
     content:
       "The software is a multi-state, multi-locations, multi-branches, multi-users with online centralized database. The software also has the feature of 'multi-login'. It means that more than one instance of the s/w can be opened at the same time. In this MudraBites software it is possible to take individual branches Balance Sheets, Day Book, P/L statements everyday.",
   },
   {
     id: "feature-4",
-    icon: send,
+    icon: custom,
     title: "Flexibilty & Expandability with Full Customizations",
     content:
       "Easy software upgradation is one of the key feature of our software. The software can be easily customized according to the client's requirements. Our software has been designed and developed in such a manner that any changes can be easily done without affecting its speed and accuracy.",
   },
   {
     id: "feature-5",
-    icon: send,
+    icon: mail,
     title: "SMS & Email Integrations",
     content:
       "Our software provides the facility of SMS delivery to the customers at each transaction whether it is the registration of a new membership/advisor or it may be opening of a new saving account or deposit/withdrawal in a saving a/c. It also delivers the sms whenever a new policy/contribution is entered or its renewal is done.",
   },
   {
     id: "feature-6",
-    icon: send,
+    icon: android,
     title: "Integration with Android Mobile Application.",
     content:
       "Digisoft IT Solutions LLP is also providing the facility of integration with android mobile app.",
