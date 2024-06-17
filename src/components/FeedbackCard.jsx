@@ -5,7 +5,7 @@ import { stats } from "../constants";
 
 const FeedbackCard = ({ content, name, title, h3 }) => (
   <div className="flex justify-between flex-col px-10 py-12 rounded-[20px]  max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card bg-greyy-gradient">
-    <p className="font-poppins font-bold text-center font-normal xs:text-[20.45px] text-[20.45px] xs:leading-[26.58px] leading-[21.58px] text-white uppercase ml-3">
+    <p className="font-poppins font-bold text-center font-normal xs:text-[20.45px] text-[20.45px] xs:leading-[26.58px] leading-[21.58px] text-bg-grey-color1 uppercase ml-3">
       {h3}
     </p>
 
@@ -18,7 +18,7 @@ const FeedbackCard = ({ content, name, title, h3 }) => (
         <h4 className="font-poppins font-semibold text-[25px] leading-[40px] text-white">
           {name}
         </h4>
-        <p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
+        <p className="font-poppins font-normal text-[25px] leading-[24px] text-bg-grey-color1">
           {title}
         </p>
       </div>

@@ -57,7 +57,7 @@ const Footer = () => {
               key={social.id}
               src={social.icon}
               alt={social.id}
-              className={`w-[25px] h-[25px] object-contain cursor-pointer bg-greyy-gradient rounded-[10px] box-shadow ${
+              className={`w-[25px] h-[25px] object-contain cursor-pointer bg-grey-color1 rounded-[10px] box-shadow ${
                 index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
               }`}
               onClick={() => window.open(social.link)}
