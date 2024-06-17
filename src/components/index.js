@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import Testimonials from "./Pricing";
 import Hero from "./Hero";
 import Features from "./features";
+import ScrollToTopButton from "./scrollToTopButton";
 
 
 export {
@@ -23,4 +24,5 @@ export {
   Testimonials,
   Hero,
   Features,
+  ScrollToTopButton,
 };

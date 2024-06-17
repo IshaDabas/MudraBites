@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex justify-between items-center navbar ">
-      <img src={logo} alt="mudraBites" className="w-[250px] h-[220px]" />
+      <img src={logo} alt="mudraBites" className="w-[190px] h-[150px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

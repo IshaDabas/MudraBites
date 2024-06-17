@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero, Features } from "./components";
+import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero, Features, ScrollToTopButton } from "./components";
 import Contact from "./components/Contact";
 
 
@@ -27,6 +27,7 @@ const App = () => (
         <CardDeal />
         <Contact />
         <Footer />
+        <ScrollToTopButton />
       </div>
     </div>
   </div>
