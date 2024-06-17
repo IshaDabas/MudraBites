@@ -18,46 +18,6 @@
   scroll-behavior: smooth;
 }
 
-.text-gradient {
-  background: radial-gradient(
-    64.18% 64.18% at 71.16% 35.69%,
-    #03254f 0.89%,
-    #03254f 20.23%,
-    #03254f 42.04%,
-    #03254f 55.12%,
-    #03254f 71.54%,
-    #03254f 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
-
-.bg-blue-gradient {
-  background: linear-gradient(
-    157.81deg,
-    #61dde1 -43.27%,
-    #66d7db -21.24%,
-    #4ac4c9 12.19%,
-    #2dc1c6 29.82%,
-    #0da6ab 51.94%,
-    #037e90 90.29%
-  );
-}
-
-.bg-blue-gradient1 {
-  background: linear-gradient(
-    157.81deg,
-    #024f52 -43.27%,
-    #1ba8ac -21.24%,
-    #01868b 12.19%,
-    #026a6d 29.82%,
-    #024f52 51.94%,
-    #013239 90.29%
-  );
-}
-
 /* .bg-black-gradient {
   background: #348F50; 
 background: -webkit-linear-gradient(to right, #56B4D3, #348F50);  
@@ -132,15 +92,6 @@ background: linear-gradient(to right, #56B4D3, #348F50);
   background: var(--black-gradient);
 }
 
-.blue__gradient {
-  background: linear-gradient(180deg, rgba(124, 157, 250, 0) 0%, #214d76 100%);
-  filter: blur(123px);
-}
-
-.pink__gradient {
-  background: linear-gradient(90deg, #5966f8 0%, #0a2174 100%);
-  filter: blur(900px);
-}
 
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
@@ -155,20 +106,6 @@ background: linear-gradient(to right, #56B4D3, #348F50);
     rgba(0, 0, 0, 0.5) 100%
   );
   background-blend-mode: lighten;
-}
-
-.text1__gradient {
-  background: #000046; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #1cb5e0,
-    #000046
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #1cb5e0,
-    #000046
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .text-black {
@@ -254,7 +191,6 @@ td {
 
 /* customStyles.css */
 .custom-scrollbar {
-  scrollbar-width: thin;
   scrollbar-color: #888 #52504d;
 }
 
@@ -276,7 +212,7 @@ td {
 .custom-scrollbar::-webkit-scrollbar-track {
   background-color: #ffffff;
   border-radius: 10px;
-  margin: 10px 0; /* Extra space to make it look taller */
+  margin: 5px 0; /* Extra space to make it look taller */
 }
 
 /* Responsive Design */

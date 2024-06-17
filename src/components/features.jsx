@@ -8,7 +8,7 @@ const Features = () => {
       className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-greyy-gradient rounded-[20px] box-shadow`}
     >
       <div className="flex-1 flex flex-col max-h-[600px] overflow-y-auto custom-scrollbar">
-        <h2 className={styles.heading2}>Features of MudraBites ERP</h2>
+        <h2 className={`${styles.heading2} text-center`}>Features of MudraBites ERP</h2>
         <div className="mt-4">
           <div className="content">
             <div className={`${styles.paragraph} max-w-[1500px] mt-2`}>
