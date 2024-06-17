@@ -1,4 +1,4 @@
-import {  facebook, instagram, linkedin, twitter, send, shield, star, trophy, hacker, chain, custom, mail, android  } from "../assets";
+import {  facebook, linkedin, twitter, trophy, hacker, chain, custom, mail, android  } from "../assets";
 
 export const navLinks = [
   {
@@ -92,24 +92,6 @@ export const feedback = [
   },
 ];
 
-export const stats = [
-  {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
-  },
-  {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
-  },
-];
-
 export const footerLinks = [
   {
     title: "Others",
@@ -189,21 +171,3 @@ export const socialMedia = [
   },
 ]
 
-export const clients = [
-  {
-    id: "client-1",
-    logo: "",
-  },
-  {
-    id: "client-2",
-    logo:"" ,
-  },
-  {
-    id: "client-3",
-    logo:"" ,
-  },
-  {
-    id: "client-4",
-    logo: "",
-  },
-];

@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero, Features, ScrollToTopButton } from "./components";
+import { Business, CardDeal, CTA, Footer, Navbar, Testimonials, Hero, Features, ScrollToTopButton } from "./components";
 import Contact from "./components/Contact";
 
 
